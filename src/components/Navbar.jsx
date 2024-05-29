@@ -37,7 +37,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className=" p-2 hover:border-b-red-500/75 hover:border-b-2  "
-                    to="services"
+                    to="/services"
                   >
                     Nos Services
                   </Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className=" p-2 hover:border-b-red-500/75 hover:border-b-2  "
-                    to="Blog"
+                    to="/Blog"
                   >
                     Blog
                   </Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className="p-2 hover:border-b-red-500/75 hover:border-b-2   "
-                    to="ContactPage"
+                    to="/ContactPage"
                   >
                     Contacts
                   </Link>

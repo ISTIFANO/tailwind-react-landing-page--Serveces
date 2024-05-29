@@ -29,7 +29,7 @@ export default function Card() {
   ];
 
   return (
-    <div className="min-h-screen pb-36 flex items-center justify-center bg-white dark:bg-zinc-800">
+    <div className="h-auto pb-36 flex items-center justify-center bg-white w-screen">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
       <h1 className="text-3xl font-bold mb-4 text-center text-zinc-800 dark:text-white">NOS SERVICES</h1>
         <div className="rounded-lg shadow-lg bg-white dark:bg-zinc-700">
@@ -46,7 +46,7 @@ export default function Card() {
                 <h2 className="text-lg font-bold mb-2 text-zinc-800 dark:text-white">{service.title}</h2>
                 <p className="text-zinc-600 dark:text-zinc-400 text-center">{service.description}</p>
               </div>
-            ))}
+            ))} 
           </div>
         </div>
       </div>

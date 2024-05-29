@@ -1,12 +1,13 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
+// import React from "react";
 import "../assets/CSS/Main.css"; // Import external CSS file
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 export default function Contactus() {
   return (
     <div className="flex flex-col md:flex-row p-4 md:p-8 contactus-container">
       <div className="w-full md:w-1/2 p-4 animate-fadeIn">
-        <h2 className="text-3xl font-bold mb-4 animate-slideIn">Need help?</h2>
-        <p className="mb-6 animate-slideIn">Contact the world's most trusted IT services.</p>
+        <h2 className="text-3xl font-bold mb-4 animate-slideIn">Besoin d'aide?</h2>
+        <p className="mb-6 animate-slideIn">Contactez les services informatiques les plus fiables au monde.</p>
         <form className="space-y-4">
           <div className="flex flex-col md:flex-row md:space-x-4">
             <input

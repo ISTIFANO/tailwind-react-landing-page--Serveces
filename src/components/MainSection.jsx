@@ -36,7 +36,7 @@ export default function MainSection() {
           </div>
         </div>
         <div className="absolute bottom-4 right-4 z-10">
-  <img src={logo} alt="Moritsoft Logo" className="w-26  h-24" />
+  <img src={logo} alt="Moritsoft Logo" className="w-auto   h-11" />
 </div>
 
       </div>
