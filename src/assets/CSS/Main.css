@@ -1,0 +1,35 @@
+/* Main.css */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes borderPulse {
+    0%, 100% {
+      border-color: #f6be3b;
+    }
+    50% {
+      border-color: #d8ac1d;
+    }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .animate-slideIn {
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .animate-borderPulse {
+    animation: borderPulse 2s infinite;
+  }
+  
+  .focus\:shadow-outline:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  }
+  
