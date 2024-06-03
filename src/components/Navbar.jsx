@@ -10,6 +10,8 @@ const Navbar = () => {
   };
 
   const closeMenu = () => {
+    setShowMenu(false);
+
   };
 
   return (

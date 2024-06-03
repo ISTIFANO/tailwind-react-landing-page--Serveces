@@ -28,7 +28,8 @@ export default function ContactPage() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultricies metus.
             </p>
           </div>
-        </div>
+          </div> 
+        {/* */}
         <div className="-mt-16 mb-8 px-8">
           <div className="container mx-auto">
             <div className="py-12 flex flex-col lg:flex-row justify-center rounded-xl border border-white bg-white shadow-md shadow-black/5 saturate-200">
